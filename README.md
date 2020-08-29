@@ -1,2 +1,2 @@
 # pdv
-projeto de controle de vendas para desktop
+projeto de controle de vendas para  desktop.
