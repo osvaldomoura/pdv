@@ -5,12 +5,8 @@
  */
 package model;
 
-/**
- *
- * @author osval
- */
 public class Cliente {
-    
+
     //Atributos
     
     private int id;
