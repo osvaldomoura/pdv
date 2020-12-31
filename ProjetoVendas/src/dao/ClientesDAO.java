@@ -77,7 +77,7 @@ public class ClientesDAO {
             List<Cliente> lista = new ArrayList<>();
 
             //2 Passo - criar o sql, organizar e executar.
-            String sql = "select*from tb_clientes";
+            String sql = "select * from tb_clientes";
             PreparedStatement stmt = con.prepareStatement(sql);
             ResultSet rs = stmt.executeQuery();
 
@@ -96,7 +96,7 @@ public class ClientesDAO {
                 obj.setNumero(rs.getInt("numero"));
                 obj.setComplemento(rs.getString("complemento"));
                 obj.setCidade(rs.getString("cidade"));
-                obj.setUf(rs.getString("uf"));
+                obj.setUf(rs.getString("estado"));
 
                 lista.add(obj);
             }

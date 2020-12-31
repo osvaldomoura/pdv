@@ -20,7 +20,6 @@ public class Cliente {
     private String endereco;
     private int numero;
     private String complemento;
-    private String bairro;
     private String cidade;
     private String uf;
 
@@ -114,15 +113,7 @@ public class Cliente {
     public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
-
-    public String getBairro() {
-        return bairro;
-    }
-
-    public void setBairro(String bairro) {
-        this.bairro = bairro;
-    }
-
+    
     public String getCidade() {
         return cidade;
     }
